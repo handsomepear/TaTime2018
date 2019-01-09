@@ -15,7 +15,8 @@ var indexPage = {
   // 初始化页面
   initPageSwiper: function () {
     new Swiper('#container', {
-      direction: 'vertical'
+      direction: 'vertical',
+      initialSlide: 11
     })
   }
 }
