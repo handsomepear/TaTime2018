@@ -16,7 +16,7 @@ var indexPage = {
   initPageSwiper: function () {
     new Swiper('#container', {
       direction: 'vertical',
-      initialSlide: 11
+      initialSlide: 0
     })
   }
 }
