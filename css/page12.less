@@ -1,0 +1,92 @@
+.item12 {
+  .center {
+    background-image: url('../imgs/page11/bg11.jpg');
+  }
+
+  .girl {
+    position: absolute;
+    left: 50%;
+    bottom: 322px;
+    width: 613px;
+    height: 328px;
+    transform: translateX(-50%);
+  }
+
+  .gka-wrap {
+    width: 134px;
+    height: 134px;
+  }
+
+  .child {
+    position: absolute;
+    left: 235px;
+    bottom: 44px;
+    width: 134px;
+    height: 134px;
+    background-image: url("../imgs/page12/child.png");
+    background-size: 1340px 134px;
+    background-repeat: no-repeat;
+    animation-name: keyframes-11-shengzi-xiaohai;
+    animation-duration: 0.44s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: steps(1);
+  }
+
+  @media (min-height: 1448px) ,(min-height: 1624px) {
+    .girl {
+      bottom: 395px;
+    }
+  }
+
+  @keyframes keyframes-11-shengzi-xiaohai {
+    0% {
+      width: 134px;
+      height: 134px;
+      background-image: url("../imgs/page12/child.png");
+      background-size: 1340px 134px;
+    }
+
+    9.09% {
+      background-position: -134px 0;
+    }
+
+    18.18% {
+      background-position: -268px 0;
+    }
+
+    27.27% {
+      background-position: -402px 0;
+    }
+
+    36.36% {
+      background-position: -536px 0;
+    }
+
+    45.45% {
+      background-position: -670px 0;
+    }
+
+    54.55% {
+      background-position: -804px 0;
+    }
+
+    63.64% {
+      background-position: -938px 0;
+    }
+
+    72.73% {
+      background-position: -1072px 0;
+    }
+
+    81.82% {
+      background-position: -1206px 0;
+    }
+
+    90.91%,
+    100% {
+      background-position: 0 0;
+    }
+  }
+}

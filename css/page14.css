@@ -1,0 +1,124 @@
+.item14 {
+  font-size: 26px;
+  color: #cc6c4a;
+}
+.item14 .center {
+  background-image: url("../imgs/page14/bg14.jpg");
+}
+.item14 .text-main {
+  position: absolute;
+  width: 690px;
+  height: 246px;
+  left: 50%;
+  bottom: 362px;
+  transform: translateX(-50%);
+  background-color: #f9b59d;
+  border-radius: 16px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.item14 .text-main .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 180px;
+  background-color: #fff;
+  border-radius: 16px;
+  margin-top: 47px;
+}
+.item14 .top-yezi {
+  position: absolute;
+  left: 33px;
+  top: -10px;
+  width: 112px;
+  height: 22px;
+  background: url("../imgs/page14/top14.png") no-repeat center;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+}
+.item14 .bottom-yezi {
+  position: absolute;
+  right: 25px;
+  bottom: -14px;
+  width: 164px;
+  height: 26px;
+  background: url("../imgs/page14/bottom14.png") no-repeat center;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+}
+.item14 .user {
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.item14 .avatar {
+  margin-top: -5px;
+  border: 5px solid #f9b59d;
+}
+.item14 .nickname {
+  margin-left: 10px;
+  color: #cc6c4a;
+}
+.item14 .desc {
+  color: #cebeb4;
+}
+.item14 .keyword {
+  font-size: 60px;
+  color: #eb6434;
+}
+.item14 .get-share-img {
+  position: absolute;
+  left: 50%;
+  bottom: 120px;
+  font-size: 36px;
+  line-height: 96px;
+  transform: translateX(-50%);
+  width: 364px;
+  height: 96px;
+  text-align: center;
+  color: #fff;
+  -webkit-border-radius: 96px;
+  -moz-border-radius: 96px;
+  border-radius: 96px;
+  background-color: #fb7c4f;
+  box-shadow: 0 0 0 10px #fae5dc;
+}
+.item14 .see-again {
+  font-size: 30px;
+  position: absolute;
+  left: 50%;
+  bottom: 55px;
+  transform: translateX(-50%);
+  text-decoration: underline;
+  color: #eb6434;
+}
+.item14 .qr-code {
+  position: absolute;
+  right: 22px;
+  bottom: 50px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 127px;
+  height: 154px;
+  padding: 4px;
+  text-align: center;
+  font-size: 22px;
+  color: #fff;
+  background-color: #fb8155;
+}
+@media (min-height: 1448px), (min-height: 1624px) {
+  .item14 .text-main {
+    bottom: 422px;
+  }
+  .item14 .get-share-img {
+    bottom: 180px;
+  }
+  .item14 .see-again {
+    bottom: 115px;
+  }
+}
+/*# sourceMappingURL=page14.css.map */

@@ -1,0 +1,17 @@
+.item11 .center {
+  background-image: url('../imgs/page11/bg11.jpg');
+}
+.item11 .girl {
+  position: absolute;
+  left: 50%;
+  bottom: 322px;
+  width: 613px;
+  height: 328px;
+  transform: translateX(-50%);
+}
+@media (min-height: 1448px), (min-height: 1624px) {
+  .item11 .girl {
+    bottom: 395px;
+  }
+}
+/*# sourceMappingURL=page11.css.map */

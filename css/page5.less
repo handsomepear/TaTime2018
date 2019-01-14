@@ -1,0 +1,249 @@
+.item5 {
+  .center {
+    background-image: url('../imgs/page5/bg5.jpg');
+  }
+  .top-boat {
+    position: relative;
+  }
+
+  .text-con {
+    p {
+      position: relative;
+      z-index: 3;
+    }
+  }
+  .boat {
+    width: 427px;
+    height: 243px;
+    animation: boat-shake .5s infinite;
+  }
+
+  .light {
+    position: absolute;
+    top: 84px;
+    left: 76px;
+    width: 256px;
+    height: 242px;
+    animation: light-show .5s infinite;
+    opacity: .8;
+  }
+
+  .font-bg {
+    position: absolute;
+    top: 66px;
+    left: -26px;
+    width: 423px;
+    height: 212px;
+    background: url("../imgs/page5/font-bg.png") no-repeat center center;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+  }
+
+  .girl {
+    width: 138px;
+    height: 338px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .hair {
+    position: absolute;
+    top: 30px;
+    left: 36px;
+    width: 86px;
+    height: 110px;
+    background-image: url("../imgs/page5/toufa.png");
+    background-size: 1376px 110px;
+    background-repeat: no-repeat;
+    animation-name: keyframes-5-toufa;
+    animation-duration: 0.64s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: steps(1);
+  }
+
+
+  .qunzi {
+    position: absolute;
+    top: 14px;
+    left: -105px;
+    width: 300px;
+    height: 300px;
+    background-image: url("../imgs/page5/qunzi.png");
+    background-size: 4800px 300px;
+    background-repeat: no-repeat;
+    animation-name: keyframes-5-qunzi;
+    animation-duration: 0.64s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: steps(1);
+  }
+
+
+  @keyframes keyframes-5-qunzi {
+    0% {
+      width: 300px;
+      height: 300px;
+      background-image: url("../imgs/page5/qunzi.png");
+      background-size: 4800px 300px;
+    }
+
+    6.25% {
+      background-position: -300px 0;
+    }
+
+    12.50% {
+      background-position: -600px 0;
+    }
+
+    18.75% {
+      background-position: -900px 0;
+    }
+
+    25.00% {
+      background-position: -1200px 0;
+    }
+
+    31.25% {
+      background-position: -1500px 0;
+    }
+
+    37.50% {
+      background-position: -1800px 0;
+    }
+
+    43.75% {
+      background-position: -2100px 0;
+    }
+
+    50.00% {
+      background-position: -2400px 0;
+    }
+
+    56.25% {
+      background-position: -2700px 0;
+    }
+
+    62.50% {
+      background-position: -3000px 0;
+    }
+
+    68.75% {
+      background-position: -3300px 0;
+    }
+
+    75.00% {
+      background-position: -3600px 0;
+    }
+
+    81.25% {
+      background-position: -3900px 0;
+    }
+
+    87.50% {
+      background-position: -4200px 0;
+    }
+
+    93.75%,
+    100% {
+      background-position: -4500px 0;
+    }
+  }
+
+  @keyframes keyframes-5-toufa {
+    0% {
+      width: 86px;
+      height: 110px;
+      background-image: url("../imgs/page5/toufa.png");
+      background-size: 1376px 110px;
+    }
+
+    6.25% {
+      background-position: -86px 0;
+    }
+
+    12.50% {
+      background-position: -172px 0;
+    }
+
+    18.75% {
+      background-position: -258px 0;
+    }
+
+    25.00% {
+      background-position: -344px 0;
+    }
+
+    31.25% {
+      background-position: -430px 0;
+    }
+
+    37.50% {
+      background-position: -516px 0;
+    }
+
+    43.75% {
+      background-position: -602px 0;
+    }
+
+    50.00% {
+      background-position: -688px 0;
+    }
+
+    56.25% {
+      background-position: -774px 0;
+    }
+
+    62.50% {
+      background-position: -860px 0;
+    }
+
+    68.75% {
+      background-position: -946px 0;
+    }
+
+    75.00% {
+      background-position: -1032px 0;
+    }
+
+    81.25% {
+      background-position: -1118px 0;
+    }
+
+    87.50% {
+      background-position: -1204px 0;
+    }
+
+    93.75%,
+    100% {
+      background-position: -1290px 0;
+    }
+  }
+
+  @keyframes boat-shake {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  @keyframes light-show {
+    0% {
+      opacity: .8;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: .8;
+    }
+  }
+
+}

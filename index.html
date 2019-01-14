@@ -7,21 +7,146 @@
   <link rel="stylesheet" href="./font/font.css">
   <link rel="stylesheet" href="./css/index.css">
   <link rel="stylesheet" href="./libs/swiper-4.2.2.min.css?v=js_datezone">
+  <link rel="stylesheet" href="./css/page1.css">
+  <link rel="stylesheet" href="./css/page2.css">
+  <link rel="stylesheet" href="./css/page3.css">
+  <link rel="stylesheet" href="./css/page4.css">
+  <link rel="stylesheet" href="./css/page5.css">
+  <link rel="stylesheet" href="./css/page6.css">
+  <link rel="stylesheet" href="./css/page7.css">
+  <link rel="stylesheet" href="./css/page8.css">
+  <link rel="stylesheet" href="./css/page9.css">
+  <link rel="stylesheet" href="./css/page10.css">
+  <link rel="stylesheet" href="./css/page11.css">
+  <link rel="stylesheet" href="./css/page12.css">
+  <link rel="stylesheet" href="./css/page13.css">
+  <link rel="stylesheet" href="./css/page14.css">
+  <style>
+    /*6.8自定义分享面板*/
+
+    .share-panel {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 100;
+      width: 750px;
+      height: 100%;
+      background-color: rgba(0, 0, 0, .6);
+      color: #000
+    }
+
+    .share-panel .fix-bottom {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 587px;
+      background-color: #fff;
+    }
+
+    .share-panel .fix-bottom .share-channels {
+      border-bottom: 1px solid #e6e6e6;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      margin-top: 58px
+    }
+
+    .share-panel .fix-bottom .share-channels li {
+      width: 250px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 56px
+    }
+
+    .share-panel .fix-bottom .share-channels li:nth-of-type(n+4) {
+      align-items: center
+    }
+
+    .share-panel .fix-bottom .share-channels li p {
+      margin-top: 20px;
+      font-size: 24px
+    }
+
+    .share-panel .fix-bottom .share-cancel {
+      height: 120px;
+      line-height: 120px;
+      text-align: center;
+      font-size: 34px;
+      letter-spacing: 5px
+    }
+    .share-panel img {
+      width: auto;
+    }
+  </style>
   <title>2018和她在一起</title>
 </head>
 <body>
 <div id="container">
   <div class="swiper-wrapper">
-    <div class="page-item item1 swiper-slide">
+    <!--<div class="page-item item1 swiper-slide">
       <div class="center">
+        &lt;!&ndash; 右上角叶子 &ndash;&gt;
+        <div class="right-yezi"></div>
+        &lt;!&ndash; 标语 &ndash;&gt;
+        <div class="main-font">
+          <img src="./imgs/page1/bg1-font.png" alt="" />
+        </div>
+        &lt;!&ndash; 女孩 &ndash;&gt;
+        <div class="girl">
+          <div class="girl-left">
+            <div class="top">
+              <div class="hair"></div>
+              <div class="body">
+                <img src="./imgs/page1/bg1-left-t.png" alt="">
+              </div>
+            </div>
+            <div class="bottom">
+              <img src="./imgs/page1/bg1-left-b.png" alt="">
+            </div>
+          </div>
+          <div class="girl-right">
+            <div class="top">
+              <div class="hair"></div>
+              <div class="body">
+                <img src="./imgs/page1/bg1-right-t.png" alt="">
+              </div>
+            </div>
+            <div class="bottom">
+              <img src="./imgs/page1/bg1-right-b.png" alt="">
+            </div>
+          </div>
+        </div>
+        &lt;!&ndash; 底部 &ndash;&gt;
+        <div class="bottom-yezi">
+          <img src="./imgs/page1/bg1-b.png" alt="">
+        </div>
+        &lt;!&ndash; 漂浮的叶子 &ndash;&gt;
+        <div class="fengye1">
+          <img src="./imgs/page1/fengye1.png" alt="">
+        </div>
+        <div class="fengye2">
+          <img src="./imgs/page1/fengye2.png" alt="">
+        </div>
+        <div class="fengye3">
+          <img src="./imgs/page1/fengye3.png" alt="">
+        </div>
+        <div class="fengye4">
+          <img src="./imgs/page1/fengye3.png" alt="">
+        </div>
       </div>
       <div class="top-tips">
         <img src="./imgs/tap-tips.png" alt="">
       </div>
     </div>
     <div class="page-item item2 swiper-slide">
-      <div class="top">
+      <div class="p-top">
         <img src="./imgs/top1.png" alt="">
+      </div>
+      <div class="p-bottom">
+        <img src="./imgs/bottom1.png" alt="">
       </div>
       <div class="center">
         <div class="text-con">
@@ -30,10 +155,18 @@
           <p class="font2"><span class="font1"> 2,367,090 </span> 天</p>
           <div class="regular-text font1">世间所有的相遇都是重逢</div>
         </div>
-
-      </div>
-      <div class="bottom">
-        <img src="./imgs/bottom1.png" alt="">
+        &lt;!&ndash; 荡秋千的女孩 &ndash;&gt;
+        <div class="main-girl">
+          <div class="girl">
+            <img src="./imgs/page2/girl.png" alt="">
+          </div>
+          &lt;!&ndash; 腿 &ndash;&gt;
+          <div class="legs"></div>
+          &lt;!&ndash; 裙子 &ndash;&gt;
+          <div class="qunzi">
+            <img src="./imgs/page2/qunzi.png" alt="">
+          </div>
+        </div>
       </div>
     </div>
     <div class="page-item item3 swiper-slide">
@@ -42,6 +175,16 @@
           <p class="font2">这一年，我们相见 <span class="font1"> 108 </span>次</p>
           <p class="font2">最多连续 <span class="font1"> 45 </span>天一直在一起</p>
           <div class="regular-text font1">女生间总有说不完的小秘密</div>
+        </div>
+        <div class="main-girl">
+          <div class="girl">
+            <img src="./imgs/page3/girl.png" alt="">
+          </div>
+          <div class="minute-hand">
+            <img src="./imgs/page3/minute-hand.png" alt="">
+          </div>
+          <div class="hair"></div>
+          <div class="zhengqi"></div>
         </div>
       </div>
     </div>
@@ -54,16 +197,41 @@
           <p class="font2">有 <span class="font1">78%</span> 小主和你一样</p>
           <div class="regular-text font1">哦，原来你也在这里</div>
         </div>
+        <div class="main-girl">
+          <div class="girl">
+            <img src="./imgs/page4/girl.png" alt="">
+          </div>
+          <div class="arm"></div>
+          <div class="note"></div>
+        </div>
       </div>
     </div>
     <div class="page-item item5 swiper-slide">
       <div class="center">
+        <div class="top-boat">
+          <div class="boat">
+            <img src="./imgs/page5/boat.png" alt="">
+          </div>
+          <div class="light">
+            <img src="./imgs/page5/light.png" alt="">
+          </div>
+        </div>
         <div class="text-con">
           <p class="font2">你总共发出了</p>
-          <p class="font2"><span class="font1">45</span>个帖子 <span class="font1 ml60">27</span>条评论</p>
+          <p class="font2"><span class="font1">45</span>个帖子<span class="font1 ml60">27</span>条评论</p>
           <p class="font2 mt30">送出了</p>
-          <p class="font2"><span class="font1">16</span>朵花 <span class="font1 ml100">56</span>个赞</p>
+          <p class="font2"><span class="font1">16</span>朵花<span class="font1 ml100">56</span>个赞</p>
+          <div class="font-bg">
+            <img src="./imgs/page5/font-bg.png" alt="">
+          </div>
           <div class="regular-text font1">表达是记录，是分享，更是创造</div>
+        </div>
+        <div class="girl">
+          <div class="hair"></div>
+          <div class="qunzi"></div>
+          <div class="body">
+            <img src="./imgs/page5/girl.png" alt="">
+          </div>
         </div>
       </div>
     </div>
@@ -71,10 +239,36 @@
       <div class="center">
         <div class="text-con">
           <p class="font2">你也收获了朋友们</p>
-          <p class="font2"><span> 7835 </span>朵花</p>
-          <p class="font2"><span> 3443 </span>条评论</p>
-          <p class="font2"><span> 7223 </span>个赞</p>
+          <p class="font2"><span>7835</span>朵花</p>
+          <p class="font2"><span>3443</span>条评论</p>
+          <p class="font2"><span>7223</span>个赞</p>
+          <div class="font-bg">
+            <img src="./imgs/page6/font-bg.png" alt="">
+          </div>
           <div class="regular-text font1">女人心事，说给女人听</div>
+        </div>
+        &lt;!&ndash; 波纹 &ndash;&gt;
+        <div class="ripple-purple">
+          <img src="./imgs/page6/ripple-purple.png" alt="">
+        </div>
+        <div class="ripple-purple">
+          <img src="./imgs/page6/ripple-purple.png" alt="">
+        </div>
+        <div class="ripple-purple">
+          <img src="./imgs/page6/ripple-purple.png" alt="">
+        </div>
+        <div class="ripple-purple">
+          <img src="./imgs/page6/ripple-purple.png" alt="">
+        </div>
+        <div class="ripple-white">
+          <img src="./imgs/page6/ripple-white.png" alt="">
+        </div>
+        <div class="main-girl">
+          <div class="girl">
+            <img src="./imgs/page6/girl.png" alt="">
+          </div>
+          <div class="hair"></div>
+          <div class="qunzi"></div>
         </div>
       </div>
     </div>
@@ -104,6 +298,13 @@
           </div>
           <p class="font2">你和她互动高达 <span class="font1">90</span> 次</p>
         </div>
+        <div class="user-l">
+          <img src="./imgs/page7/user-l.png" alt="">
+          <div class="qiqiu"></div>
+        </div>
+        <div class="user-r">
+          <img src="./imgs/page7/user-r.png" alt="">
+        </div>
         <p class="font1 regular-text">社区存知己，天涯若比邻</p>
       </div>
     </div>
@@ -115,6 +316,13 @@
           <p class="font2">等级排名超过了她社区<span class="font1">89%</span> 用户</p>
           <div class="regular-text font1">高处的风景是不是更美丽</div>
         </div>
+        <div class="main-girl">
+          <div class="girl">
+            <img src="./imgs/page8/girl.png" alt="">
+          </div>
+          <div class="qunzi"></div>
+          <div class="hair"></div>
+        </div>
       </div>
     </div>
     <div class="page-item item9 swiper-slide">
@@ -123,6 +331,16 @@
           <p class="font2">凭借自己的努力， </p>
           <p class="font2">你收获了：<span class="font2">1部iPhone手机</span></p>
           <div class="regular-text font1">希望它能让你看到更广阔的世界</div>
+        </div>
+        <div class="main-girl">
+          <div class="ribbon">
+            <img src="imgs/page9/caidai.png" alt="">
+          </div>
+          <div class="girl">
+            <img src="imgs/page9/girl.png" alt="">
+            <div class="hair"></div>
+            <div class="qunzi"></div>
+          </div>
         </div>
       </div>
     </div>
@@ -133,6 +351,13 @@
           <p class="font2">你在自拍广场发了一个帖子 </p>
           <div class="regular-text font1">睡不着的夜，她社区陪你</div>
         </div>
+        <div class="main-girl">
+          <div class="girl">
+            <img src="./imgs/page10/girl.png" alt="">
+            <div class="zhengqi"></div>
+            <div class="star"></div>
+          </div>
+        </div>
       </div>
     </div>
     <div class="page-item item11 swiper-slide">
@@ -142,11 +367,42 @@
           <p class="font2">有 <span clas="font1">234</span> 位小主和你一起度过呦！</p>
           <div class="regular-text font1">你的朋友越来越多，世界也越来越大</div>
         </div>
+        <div class="girl">
+          <img src="./imgs/page11/girl.png" alt="">
+        </div>
       </div>
     </div>
     <div class="page-item item12 swiper-slide">
       <div class="center">
-        <!-- 关键词信息 -->
+        <div class="text-con">
+          <p class="font2"><span class="font2">情人节</span>那天，在<span class="font2">北京</span>，</p>
+          <p class="font2">有 <span clas="font1">234</span> 位小主和你一起度过呦！</p>
+          <div class="regular-text font1">你的朋友越来越多，世界也越来越大</div>
+        </div>
+        <div class="girl">
+          <img src="./imgs/page12/girl.png" alt="">
+          <div class="child"></div>
+        </div>
+      </div>
+    </div>
+    <div class="page-item item13 swiper-slide">
+      <div class="center">
+        <div class="p-top">
+          <img src="imgs/page13/top-13.png" alt="">
+        </div>
+        <div class="text-con">
+          <p class="font2"><span class="font2">情人节</span>那天，在<span class="font2">北京</span>，</p>
+          <p class="font2">有 <span clas="font1">234</span> 位小主和你一起度过呦！</p>
+          <div class="regular-text font1">你的朋友越来越多，世界也越来越大</div>
+        </div>
+        <div class="p-bottom">
+          <img src="imgs/page13/bottom-13.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="page-item item14 swiper-slide">
+      <div class="center">
+        &lt;!&ndash; 关键词信息 &ndash;&gt;
         <div class="text-main">
           <div class="user">
             <div class="avatar">
@@ -157,26 +413,57 @@
             <p class="nickname">美滋滋</p>
             <p style="margin-left: 8px;">的关键词</p>
           </div>
-          <p class="keyword">吃货实力派</p>
-          <p class="desc">街头巷尾小吃，柴米油盐三餐，爱与美食都不可辜负</p>
+          <div class="text">
+            <p class="keyword">吃货实力派</p>
+            <p class="desc">街头巷尾小吃，柴米油盐三餐，爱与美食都不可辜负</p>
+          </div>
+          <div class="top-yezi"></div>
+          <div class="bottom-yezi"></div>
         </div>
-        <!-- 按钮 -->
+        &lt;!&ndash; 按钮 &ndash;&gt;
         <div class="get-share-img">生成分享图</div>
-        <!-- 再看一遍 -->
+        &lt;!&ndash; 再看一遍 &ndash;&gt;
         <p class="see-again">再看一遍</p>
-        <!-- 二维码 -->
+        &lt;!&ndash; 二维码 &ndash;&gt;
         <div class="qr-code">
           <img
-              src="https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83epTJysoUqHnBpgfWicMntBARaRkNxX6iaO8f3NObcqz9GUxb691FnR3nm1BN05ztkD3hg896j5iccfRw/132"
+              src="./imgs/page14/ta-qr-code.jpg"
               alt="">
           <p>扫码看报告</p>
         </div>
       </div>
-    </div>
+    </div>-->
   </div>
 </div>
 <div class="not-found">
   <div class="feedback-btn">数据有误，我要反馈</div>
+</div>
+<div class="share-panel">
+  <div class="fix-bottom">
+    <ul class="share-channels">
+      <li data-index="0">
+        <img src="./imgs/icon-share1@2x.png" alt="cicel">
+        <p>朋友圈</p>
+      </li>
+      <li data-index="1">
+        <img src="./imgs/icon-share2@2x.png" alt="friend">
+        <p>微信好友</p>
+      </li>
+      <li data-index="2">
+        <img src="./imgs/icon-share3@2x.png" alt="qq">
+        <p>QQ好友</p>
+      </li>
+      <li data-index="3">
+        <img src="./imgs/icon-share5@2x.png" alt="qzone">
+        <p>QQ空间</p>
+      </li>
+      <li data-index="4">
+        <img src="./imgs/icon-share4@2x.png" alt="weibo">
+        <p>微博</p>
+      </li>
+    </ul>
+    <div class="share-cancel">取消</div>
+  </div>
 </div>
 <script src="http://image.guang.j.cn/static/js/jquery.js?v=js_datezone"></script>
 <script src="http://image.guang.j.cn/static/js/tools.js?v=js_datezone"></script>

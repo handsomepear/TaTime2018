@@ -1,0 +1,654 @@
+.item1 {
+  background-color: #faf4ef;
+}
+.item1.swiper-slide-active .main-font {
+  opacity: 1;
+}
+.item1.swiper-slide-active .fengye1 {
+  animation-name: fengye1;
+  animation-duration: 4s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+.item1.swiper-slide-active .fengye2 {
+  animation-name: fengye2;
+  animation-duration: 6s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+.item1.swiper-slide-active .fengye3 {
+  animation-name: fengye3;
+  animation-duration: 5s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+.item1.swiper-slide-active .fengye4 {
+  animation-name: fengye4;
+  animation-duration: 4s;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+.item1 .main-font {
+  width: 597px;
+  height: 337px;
+  margin: 77px auto 0;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 2s;
+  opacity: 0;
+}
+.item1 .right-yezi {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 150px;
+  height: 170px;
+  background-image: url("../imgs/page1/yezi.png");
+  background-size: 7650px 170px;
+  background-repeat: no-repeat;
+  animation-name: keyframes-1-yezi;
+  animation-duration: 2.08s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: steps(1);
+}
+.item1 .girl {
+  position: absolute;
+  width: 100%;
+  height: 641px;
+  left: 50%;
+  bottom: 100px;
+  transform: translateX(-50%);
+}
+.item1 .girl-left {
+  position: absolute;
+  left: 128px;
+  transition: all 1s;
+}
+.item1 .girl-left .hair {
+  width: 360px;
+  height: 290px;
+  background-image: url("../imgs/page1/toufa-l.png");
+  background-size: 14400px 290px;
+  background-repeat: no-repeat;
+  animation-name: keyframes-1-toufazuo;
+  animation-duration: 1.64s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: steps(1);
+}
+.item1 .girl-left .body {
+  position: absolute;
+  top: 46px;
+  left: 100px;
+  width: 226px;
+  height: 379px;
+}
+.item1 .girl-left .bottom {
+  position: absolute;
+  left: 0;
+  top: 280px;
+  width: 213px;
+  height: 249px;
+}
+.item1 .girl-right {
+  position: absolute;
+  right: 43px;
+  top: 180px;
+  transition: all 1s;
+}
+.item1 .girl-right .hair {
+  width: 220px;
+  height: 210px;
+  background-image: url("../imgs/page1/toufa-r.png");
+  background-size: 8800px 210px;
+  background-repeat: no-repeat;
+  animation-name: keyframes-1-toufayou;
+  animation-duration: 1.6s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: steps(1);
+}
+.item1 .girl-right .body {
+  position: absolute;
+  top: 10px;
+  left: -92px;
+  width: 108px;
+  height: 170px;
+}
+.item1 .girl-right .bottom {
+  position: absolute;
+  right: 207px;
+  top: 190px;
+  width: 255px;
+  height: 332px;
+}
+.item1 .top-tips {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-animation: top-tips 1s infinite;
+  -o-animation: top-tips 1s infinite;
+  animation: top-tips 1s infinite;
+}
+.item1 .bottom-yezi {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 243px;
+}
+.item1 .fengye1 {
+  position: absolute;
+  right: -39px;
+  top: 500px;
+  width: 44px;
+  height: 39px;
+}
+@keyframes fengye1 {
+  0% {
+    right: -39px;
+    top: 500px;
+  }
+  100% {
+    right: 100%;
+    top: 900px;
+  }
+}
+.item1 .fengye2 {
+  position: absolute;
+  right: -26px;
+  top: 480px;
+  width: 31px;
+  height: 26px;
+  animation-name: fengye2;
+  animation-duration: 6s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+@keyframes fengye2 {
+  0% {
+    right: -26px;
+    top: 480px;
+  }
+  100% {
+    right: 100%;
+    top: 1100px;
+  }
+}
+.item1 .fengye3 {
+  position: absolute;
+  right: -25px;
+  top: 450px;
+  width: 30px;
+  height: 25px;
+}
+@keyframes fengye3 {
+  0% {
+    right: -25px;
+    top: 450px;
+  }
+  100% {
+    right: 100%;
+    top: 1060px;
+  }
+}
+.item1 .fengye4 {
+  position: absolute;
+  right: -25px;
+  top: 500px;
+  width: 30px;
+  height: 25px;
+}
+@keyframes fengye4 {
+  0% {
+    right: -25px;
+    top: 500px;
+  }
+  100% {
+    right: 324px;
+    top: 600px;
+  }
+}
+@keyframes keyframes-1-yezi {
+  0% {
+    width: 150px;
+    height: 170px;
+    background-image: url("../imgs/page1/yezi.png");
+    background-size: 7650px 170px;
+  }
+  1.92% {
+    background-position: -150px 0;
+  }
+  3.85% {
+    background-position: -300px 0;
+  }
+  5.77% {
+    background-position: -450px 0;
+  }
+  7.69% {
+    background-position: -600px 0;
+  }
+  9.62% {
+    background-position: -750px 0;
+  }
+  11.54% {
+    background-position: -900px 0;
+  }
+  13.46% {
+    background-position: -1050px 0;
+  }
+  15.38% {
+    background-position: -1200px 0;
+  }
+  17.31% {
+    background-position: -1350px 0;
+  }
+  19.23% {
+    background-position: -1500px 0;
+  }
+  21.15% {
+    background-position: -1650px 0;
+  }
+  23.08% {
+    background-position: -1800px 0;
+  }
+  25.00% {
+    background-position: -1950px 0;
+  }
+  26.92% {
+    background-position: -2100px 0;
+  }
+  28.85% {
+    background-position: -2250px 0;
+  }
+  30.77% {
+    background-position: -2400px 0;
+  }
+  32.69% {
+    background-position: -2550px 0;
+  }
+  34.62% {
+    background-position: -2700px 0;
+  }
+  36.54% {
+    background-position: -2850px 0;
+  }
+  38.46% {
+    background-position: -3000px 0;
+  }
+  40.38% {
+    background-position: -3150px 0;
+  }
+  42.31% {
+    background-position: -3300px 0;
+  }
+  44.23% {
+    background-position: -3450px 0;
+  }
+  46.15% {
+    background-position: -3600px 0;
+  }
+  48.08% {
+    background-position: -3750px 0;
+  }
+  50.00% {
+    background-position: -3900px 0;
+  }
+  51.92% {
+    background-position: -4050px 0;
+  }
+  53.85% {
+    background-position: -4200px 0;
+  }
+  55.77% {
+    background-position: -4350px 0;
+  }
+  57.69% {
+    background-position: -4500px 0;
+  }
+  59.62% {
+    background-position: -4650px 0;
+  }
+  61.54% {
+    background-position: -4800px 0;
+  }
+  63.46% {
+    background-position: -4950px 0;
+  }
+  65.38% {
+    background-position: -5100px 0;
+  }
+  67.31% {
+    background-position: -5250px 0;
+  }
+  69.23% {
+    background-position: -5400px 0;
+  }
+  71.15% {
+    background-position: -5550px 0;
+  }
+  73.08% {
+    background-position: -5700px 0;
+  }
+  75.00% {
+    background-position: -5850px 0;
+  }
+  76.92% {
+    background-position: -6000px 0;
+  }
+  78.85% {
+    background-position: -6150px 0;
+  }
+  80.77% {
+    background-position: -6300px 0;
+  }
+  82.69% {
+    background-position: -6450px 0;
+  }
+  84.62% {
+    background-position: -6600px 0;
+  }
+  86.54% {
+    background-position: -6750px 0;
+  }
+  88.46% {
+    background-position: -6900px 0;
+  }
+  90.38% {
+    background-position: -7050px 0;
+  }
+  92.31% {
+    background-position: -7200px 0;
+  }
+  94.23% {
+    background-position: -7350px 0;
+  }
+  96.15% {
+    background-position: -7500px 0;
+  }
+  98.08%,
+  100% {
+    background-position: 0 0;
+  }
+}
+@keyframes keyframes-1-toufazuo {
+  0% {
+    width: 360px;
+    height: 290px;
+    background-image: url("../imgs/page1/toufa-l.png");
+    background-size: 14400px 290px;
+  }
+  2.44% {
+    background-position: -360px 0px;
+  }
+  4.88% {
+    background-position: -720px 0px;
+  }
+  7.32% {
+    background-position: -1080px 0px;
+  }
+  9.76% {
+    background-position: -1440px 0px;
+  }
+  12.20% {
+    background-position: -1800px 0px;
+  }
+  14.63% {
+    background-position: -2160px 0px;
+  }
+  17.07% {
+    background-position: -2520px 0px;
+  }
+  19.51% {
+    background-position: -2880px 0px;
+  }
+  21.95% {
+    background-position: -3240px 0px;
+  }
+  24.39% {
+    background-position: -3600px 0px;
+  }
+  26.83% {
+    background-position: -3960px 0px;
+  }
+  29.27% {
+    background-position: -4320px 0px;
+  }
+  31.71% {
+    background-position: -4680px 0px;
+  }
+  34.15% {
+    background-position: -5040px 0px;
+  }
+  36.59% {
+    background-position: -5400px 0px;
+  }
+  39.02% {
+    background-position: -5760px 0px;
+  }
+  41.46% {
+    background-position: -6120px 0px;
+  }
+  43.90% {
+    background-position: -6480px 0px;
+  }
+  46.34% {
+    background-position: -6840px 0px;
+  }
+  48.78% {
+    background-position: -7200px 0px;
+  }
+  51.22% {
+    background-position: -7560px 0px;
+  }
+  53.66% {
+    background-position: -7920px 0px;
+  }
+  56.10% {
+    background-position: -8280px 0px;
+  }
+  58.54% {
+    background-position: -8640px 0px;
+  }
+  60.98% {
+    background-position: -9000px 0px;
+  }
+  63.41% {
+    background-position: -9360px 0px;
+  }
+  65.85% {
+    background-position: -9720px 0px;
+  }
+  68.29% {
+    background-position: -10080px 0px;
+  }
+  70.73% {
+    background-position: -10440px 0px;
+  }
+  73.17% {
+    background-position: -10800px 0px;
+  }
+  75.61% {
+    background-position: -11160px 0px;
+  }
+  78.05% {
+    background-position: -11520px 0px;
+  }
+  80.49% {
+    background-position: -11880px 0px;
+  }
+  82.93% {
+    background-position: -12240px 0px;
+  }
+  85.37% {
+    background-position: -12600px 0px;
+  }
+  87.80% {
+    background-position: -12960px 0px;
+  }
+  90.24% {
+    background-position: -13320px 0px;
+  }
+  92.68% {
+    background-position: -13680px 0px;
+  }
+  95.12% {
+    background-position: -14040px 0px;
+  }
+  97.56%,
+  100% {
+    background-position: 0px 0px;
+  }
+}
+@keyframes keyframes-1-toufayou {
+  0% {
+    width: 220px;
+    height: 210px;
+    background-image: url("../imgs/page1/toufa-r.png");
+    background-size: 8800px 210px;
+  }
+  2.50% {
+    background-position: -220px 0px;
+  }
+  5.00% {
+    background-position: -440px 0px;
+  }
+  7.50% {
+    background-position: -660px 0px;
+  }
+  10.00% {
+    background-position: -880px 0px;
+  }
+  12.50% {
+    background-position: -1100px 0px;
+  }
+  15.00% {
+    background-position: -1320px 0px;
+  }
+  17.50% {
+    background-position: -1540px 0px;
+  }
+  20.00% {
+    background-position: -1760px 0px;
+  }
+  22.50% {
+    background-position: -1980px 0px;
+  }
+  25.00% {
+    background-position: -2200px 0px;
+  }
+  27.50% {
+    background-position: -2420px 0px;
+  }
+  30.00% {
+    background-position: -2640px 0px;
+  }
+  32.50% {
+    background-position: -2860px 0px;
+  }
+  35.00% {
+    background-position: -3080px 0px;
+  }
+  37.50% {
+    background-position: -3300px 0px;
+  }
+  40.00% {
+    background-position: -3520px 0px;
+  }
+  42.50% {
+    background-position: -3740px 0px;
+  }
+  45.00% {
+    background-position: -3960px 0px;
+  }
+  47.50% {
+    background-position: -4180px 0px;
+  }
+  50.00% {
+    background-position: -4400px 0px;
+  }
+  52.50% {
+    background-position: -4620px 0px;
+  }
+  55.00% {
+    background-position: -4840px 0px;
+  }
+  57.50% {
+    background-position: -5060px 0px;
+  }
+  60.00% {
+    background-position: -5280px 0px;
+  }
+  62.50% {
+    background-position: -5500px 0px;
+  }
+  65.00% {
+    background-position: -5720px 0px;
+  }
+  67.50% {
+    background-position: -5940px 0px;
+  }
+  70.00% {
+    background-position: -6160px 0px;
+  }
+  72.50% {
+    background-position: -6380px 0px;
+  }
+  75.00% {
+    background-position: -6600px 0px;
+  }
+  77.50% {
+    background-position: -6820px 0px;
+  }
+  80.00% {
+    background-position: -7040px 0px;
+  }
+  82.50% {
+    background-position: -7260px 0px;
+  }
+  85.00% {
+    background-position: -7480px 0px;
+  }
+  87.50% {
+    background-position: -7700px 0px;
+  }
+  90.00% {
+    background-position: -7920px 0px;
+  }
+  92.50% {
+    background-position: -8140px 0px;
+  }
+  95.00% {
+    background-position: -8360px 0px;
+  }
+  97.50%,
+  100% {
+    background-position: -8580px 0px;
+  }
+}
+@keyframes top-tips {
+  0% {
+    transform: translateX(-50%) translateY(0px);
+  }
+  100% {
+    transform: translateX(-50%) translateY(-20px);
+  }
+}
+@media (min-height: 1448px), (min-height: 1624px) {
+  .item1 .main-font {
+    margin-top: 137px;
+  }
+}
+/*# sourceMappingURL=page1.css.map */

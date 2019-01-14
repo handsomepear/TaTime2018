@@ -1,0 +1,184 @@
+.item2 .center {
+  background-image: url('../imgs/page2/bg2.jpg');
+}
+.item2 .main-girl {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  transform-origin: 200px 150px;
+  transform: rotate(-15deg);
+  animation: main-girl 3.5s infinite;
+}
+.item2 .girl {
+  width: 339px;
+  height: 990px;
+}
+.item2 .legs {
+  position: absolute;
+  left: -104px;
+  bottom: -130px;
+  width: 280px;
+  height: 280px;
+  background-image: url("../imgs/page2/tui.png");
+  background-size: 11200px 280px;
+  background-repeat: no-repeat;
+  animation-name: keyframes-2-tui;
+  animation-duration: 1.64s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: steps(1);
+}
+.item2 .qunzi {
+  position: absolute;
+  left: 45px;
+  bottom: 17px;
+  width: 162px;
+  height: 140px;
+}
+@keyframes main-girl {
+  0% {
+    transform: rotate(-15deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(-15deg);
+  }
+}
+@keyframes keyframes-2-tui {
+  0% {
+    width: 280px;
+    height: 280px;
+    background-image: url("../imgs/page2/tui.png");
+    background-size: 11200px 280px;
+  }
+  2.44% {
+    background-position: -280px 0;
+  }
+  4.88% {
+    background-position: -560px 0;
+  }
+  7.32% {
+    background-position: -840px 0;
+  }
+  9.76% {
+    background-position: -1120px 0;
+  }
+  12.20% {
+    background-position: -1400px 0;
+  }
+  14.63% {
+    background-position: -1680px 0;
+  }
+  17.07% {
+    background-position: -1960px 0;
+  }
+  19.51% {
+    background-position: -2240px 0;
+  }
+  21.95% {
+    background-position: -2520px 0;
+  }
+  24.39% {
+    background-position: -2800px 0;
+  }
+  26.83% {
+    background-position: -3080px 0;
+  }
+  29.27% {
+    background-position: -3360px 0;
+  }
+  31.71% {
+    background-position: -3640px 0;
+  }
+  34.15% {
+    background-position: -3920px 0;
+  }
+  36.59% {
+    background-position: -4200px 0;
+  }
+  39.02% {
+    background-position: -4480px 0;
+  }
+  41.46% {
+    background-position: -4760px 0;
+  }
+  43.90% {
+    background-position: -5040px 0;
+  }
+  46.34% {
+    background-position: -5320px 0;
+  }
+  48.78% {
+    background-position: -5600px 0;
+  }
+  51.22% {
+    background-position: -5880px 0;
+  }
+  53.66% {
+    background-position: -6160px 0;
+  }
+  56.10% {
+    background-position: -6440px 0;
+  }
+  58.54% {
+    background-position: -6720px 0;
+  }
+  60.98% {
+    background-position: -7000px 0;
+  }
+  63.41% {
+    background-position: -7280px 0;
+  }
+  65.85% {
+    background-position: -7560px 0;
+  }
+  68.29% {
+    background-position: -7840px 0;
+  }
+  70.73% {
+    background-position: -8120px 0;
+  }
+  73.17% {
+    background-position: -8400px 0;
+  }
+  75.61% {
+    background-position: -8680px 0;
+  }
+  78.05% {
+    background-position: -8960px 0;
+  }
+  80.49% {
+    background-position: -9240px 0;
+  }
+  82.93% {
+    background-position: -9520px 0;
+  }
+  85.37% {
+    background-position: -9800px 0;
+  }
+  87.80% {
+    background-position: -10080px 0;
+  }
+  90.24% {
+    background-position: -10360px 0;
+  }
+  92.68% {
+    background-position: -10640px 0;
+  }
+  95.12% {
+    background-position: -10920px 0;
+  }
+  97.56%,
+  100% {
+    background-position: 0 0;
+  }
+}
+@media (min-height: 1448px), (min-height: 1624px) {
+  .item2 .girl {
+    top: 60px;
+  }
+}
+/*# sourceMappingURL=page2.css.map */

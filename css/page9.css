@@ -1,0 +1,164 @@
+.item9 .center {
+  background-image: url('../imgs/page9/bg9.jpg');
+}
+.item9 .center {
+  position: relative;
+  z-index: -2;
+}
+.item9 .main-girl {
+  position: absolute;
+  right: 120px;
+  bottom: -110px;
+}
+.item9 .girl {
+  position: absolute;
+  top: -40px;
+  left: 90px;
+  width: 139px;
+  height: 226px;
+  z-index: -1;
+}
+.item9 .ribbon {
+  width: 457px;
+  height: 652px;
+}
+.item9 .hair {
+  position: absolute;
+  top: -6px;
+  left: -60px;
+  width: 130px;
+  height: 80px;
+  background-image: url("../imgs/page9/toufa.png");
+  background-size: 2080px 80px;
+  background-repeat: no-repeat;
+  animation-name: keyframes-9-toufa;
+  animation-duration: 1.24s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: steps(1);
+}
+.item9 .qunzi {
+  position: absolute;
+  top: 90px;
+  left: 4px;
+  width: 80px;
+  height: 80px;
+  background-image: url("../imgs/page9/qunzi.png");
+  background-size: 1280px 80px;
+  background-repeat: no-repeat;
+  animation-name: keyframes-9-qunzi;
+  animation-duration: 0.64s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: steps(1);
+}
+@keyframes keyframes-9-qunzi {
+  0% {
+    width: 80px;
+    height: 80px;
+    background-image: url("../imgs/page9/qunzi.png");
+    background-size: 1280px 80px;
+  }
+  6.25% {
+    background-position: -80px 0;
+  }
+  12.50% {
+    background-position: -160px 0;
+  }
+  18.75% {
+    background-position: -240px 0;
+  }
+  25.00% {
+    background-position: -320px 0;
+  }
+  31.25% {
+    background-position: -400px 0;
+  }
+  37.50% {
+    background-position: -480px 0;
+  }
+  43.75% {
+    background-position: -560px 0;
+  }
+  50.00% {
+    background-position: -640px 0;
+  }
+  56.25% {
+    background-position: -720px 0;
+  }
+  62.50% {
+    background-position: -800px 0;
+  }
+  68.75% {
+    background-position: -880px 0;
+  }
+  75.00% {
+    background-position: -960px 0;
+  }
+  81.25% {
+    background-position: -1040px 0;
+  }
+  87.50% {
+    background-position: -1120px 0;
+  }
+  93.75%,
+  100% {
+    background-position: -1200px 0;
+  }
+}
+@keyframes keyframes-9-toufa {
+  0% {
+    width: 130px;
+    height: 80px;
+    background-image: url("../imgs/page9/toufa.png");
+    background-size: 2080px 80px;
+  }
+  3.23% {
+    background-position: -130px 0;
+  }
+  6.45% {
+    background-position: -260px 0;
+  }
+  9.68% {
+    background-position: -390px 0;
+  }
+  12.90% {
+    background-position: -520px 0;
+  }
+  16.13% {
+    background-position: -650px 0;
+  }
+  19.35% {
+    background-position: -780px 0;
+  }
+  22.58% {
+    background-position: -910px 0;
+  }
+  25.81% {
+    background-position: -1040px 0;
+  }
+  29.03% {
+    background-position: -1170px 0;
+  }
+  32.26% {
+    background-position: -1300px 0;
+  }
+  35.48% {
+    background-position: -1430px 0;
+  }
+  38.71% {
+    background-position: -1560px 0;
+  }
+  41.94% {
+    background-position: -1690px 0;
+  }
+  45.16% {
+    background-position: -1820px 0;
+  }
+  48.39% {
+    background-position: -1950px 0;
+  }
+}
+/*# sourceMappingURL=page9.css.map */
